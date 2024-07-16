@@ -14,5 +14,27 @@ public class primitiveDT{
 
         int i = b;
         System.out.println("I is : "+i);
+
+        byte b2 = (byte)129;
+        System.out.println("B2 is : "+b2);
+
+        byte b3 = (byte)128;
+        System.out.println("B3 is : "+b3);
+        
+        byte b4 = (byte)256;
+        System.out.println("B4 is : "+b4);
+
+        float f = (float)5.5; //by default consider as decimal to be double
+
+        float f2 = 5.5f;
+
+        double d = 10.5;
+
+        char ch = 'a';
+        System.out.println(ch);
+
+        int z = x + y;
+        //+ -> operator
+        //x,y -> operands
     }
 }
