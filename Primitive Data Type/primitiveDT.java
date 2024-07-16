@@ -8,10 +8,7 @@ public class primitiveDT{
 
         byte b = 10;
         System.out.println("B is : "+b);
-
-        byte b2 = (byte)129;
-        System.out.println("B is : "+b2);
-
+        
         int i = b;
         System.out.println("I is : "+i);
 
@@ -36,5 +33,11 @@ public class primitiveDT{
         int z = x + y;
         //+ -> operator
         //x,y -> operands
+
+
+        // increment and decrement operator
+        int m = 5;
+        int n = m++;
+        System.out.println("M is: "+m+", N is: "+n);
     }
 }
